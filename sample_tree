@@ -1,0 +1,23 @@
+Test legs 
+ legs = 0 ==> Test fins 
+     fins = 0 ==> Test toothed 
+         toothed = 0 ==> RESULT =  shellfish 
+         toothed = 1 ==> RESULT =  reptile 
+     fins = 1 ==> Test eggs 
+         eggs = 0 ==> RESULT =  mammal 
+         eggs = 1 ==> RESULT =  fish 
+ legs = 2 ==> Test hair 
+     hair = 0 ==> RESULT =  bird 
+     hair = 1 ==> RESULT =  mammal 
+ legs = 4 ==> Test hair 
+     hair = 0 ==> Test aquatic 
+         aquatic = 0 ==> RESULT =  reptile 
+         aquatic = 1 ==> Test toothed 
+             toothed = 0 ==> RESULT =  shellfish 
+             toothed = 1 ==> RESULT =  amphibian 
+     hair = 1 ==> RESULT =  mammal 
+ legs = 5 ==> RESULT =  shellfish 
+ legs = 6 ==> Test aquatic 
+     aquatic = 0 ==> RESULT =  insect 
+     aquatic = 1 ==> RESULT =  shellfish 
+ legs = 8 ==> RESULT =  shellfish 

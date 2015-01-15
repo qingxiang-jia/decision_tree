@@ -1,0 +1,15 @@
+																attr = 11  k  val = 'shellfish'
+DecisionTree('legs', {0: DecisionTree('fins', {0: DecisionTree('toothed', {0: 'shellfish', 
+																		   1: 'reptile'}), 
+											   1: DecisionTree('eggs', {0: 'mammal', 
+													   					1: 'fish'})}), 
+					  2: DecisionTree('hair', {0: 'bird', 
+						  					   1: 'mammal'}), 
+					  4: DecisionTree('hair', {0: DecisionTree('aquatic', {0: 'reptile', 
+						  												   1: DecisionTree('toothed', {0: 'shellfish', 
+						  															 				   1: 'amphibian'})}), 
+						  					   1: 'mammal'}), 
+					  5: 'shellfish', 
+					  6: DecisionTree('aquatic', {0: 'insect', 
+						  						  1: 'shellfish'}), 
+					  8: 'shellfish'})
